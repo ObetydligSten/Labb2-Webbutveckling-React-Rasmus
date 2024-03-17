@@ -1,0 +1,11 @@
+{
+  "homepage": "https://ObetydligSten.github.io/Labb2-Webbutveckling-React-Rasmus",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+  
+}

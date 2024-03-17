@@ -1,0 +1,97 @@
+*{
+  font-family: 'Arial', 'sans-serif';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: .1rem;
+}
+
+.portfolio{
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  overflow-x: hidden;
+  text-align: center;
+  background-color: #222;
+}
+
+.portfolio .prodiv{
+  padding: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.portfolio .prodiv .project{
+  min-height: 28rem;
+  width: 25%;
+  text-align: center;
+  margin: 1rem 2rem 3rem 2rem;
+  position: relative;
+  overflow: hidden;
+  z-index: 50;
+  border-radius: 0 10px;
+  box-shadow: 0 0 15px;
+  background-color: #333;
+}
+
+.portfolio .prodiv .portfolioHeader{
+  min-height: 2rem;
+  width: 97%;
+  text-align: center;
+  align-items: center;
+  margin: 15px 5px;
+  position: relative;
+  overflow: hidden;
+  z-index: 50;
+}
+
+.portfolio .prodiv .project h3{
+  text-decoration: underline;
+  font-size: 1.5rem;
+  color: gold;
+}
+
+.portfolio .prodiv .project .projBesk{
+  margin: 0 20px 20px 20px;
+  text-align: left;
+  color: gold;
+  font-size: 1.1rem;
+}
+
+.portfolio .prodiv .project .projLänk{
+  margin: 0 20px 20px 20px;
+  font-size: 1.1rem;
+  position: absolute;
+  bottom: 2rem;
+}
+
+.portfolio .prodiv .project .projLänk a{
+  color: gold;
+  text-decoration: underline;
+}
+
+footer{
+  text-align: center;
+  color: gold;
+  background-color: #222;
+  padding: 5px;
+}
+
+.header{
+  color: gold;
+  background-color: #222;
+  text-align: center;
+  min-height: 3rem;
+  padding-top: 3rem;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1200px) {
+  .project {
+      min-width: 80%;
+  }
+}
+
